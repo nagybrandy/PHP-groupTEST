@@ -37,7 +37,7 @@ For the simplest solution, PHP is the only necessary language to use. However, y
 | 1.| Check the attributes of the inputs in the form; these will help in retrieving the entered data in isvalid.php through the request.  ||
 | 2. | You can see the possible error messages; use their texts. Beneath the error messages, there are links to assist in validation. ||
 | | a. Accept the name only if it exists and is at least 4 characters long without spaces at the beginning or end! | <span style="color:red"> 1 point </span>|
-|  | b. Validate the type using this regular expression:`/^[a-zA-Z\s]*$/` |<span style="color:red"> 1 point </span>|
+|  | b. Validate the type using this regular expression:`/^[a-zA-Z\s]/` |<span style="color:red"> 1 point </span>|
 |  | c. Validate the months as an integer using the filter_var function! |<span style="color:red"> 1 point </span>||
 | 3. | Assign the origin country to the 'origin' key, then append the new data to cheese_stock.json! | <span style="color:red"> 2 points </span>|
 | 4. | Depending on whether there is an error in validation, display the appropriate sections on the page! |<span style="color:red"> 1 point </span>|
